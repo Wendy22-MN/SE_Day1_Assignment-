@@ -15,14 +15,26 @@
 
 **List and briefly explain the phases of the Software Development Life Cycle.**
 -Planning
+planning is a vital role in the software delivery lifecycle since this is the part where the team estimates the cost and defines the requirements of the new software.
 -define requirements
+The second step of SDLC is gathering maximum information from the client requirements for the product. Discuss each detail and specification of the product with the customer. The development team will then analyze the requirements keeping the design and code of the software in mind.
 -design
+The program developer scrutinizes whether the prepared software suffices all the requirements of the end-user and if the project is feasible for the customer technologically, practically, and financially
 -implementation
+ Translating the design to a computer-legible language(coding)
 -testing
+Once the developers build the software, then it is deployed in the testing environment. Then the testing team tests the functionality of the entire system. 
 -deployment 
+ Once the testing is done, and the product is ready for deployment, it is released for customers to use.
 -maintenance 
+The actual problem starts when the customer actually starts using the developed system and those needs to be solved from time to time. Maintenance is the seventh phase of SDLC where the developed product is taken care of. According to the changing user end environment or technology, the software is updated timely.
 
 **Compare and contrast the Waterfall and Agile methodologies. Provide examples of scenarios where each would be appropriate.**
+Agile is an iterative approach to software development, emphasizing flexibility and collaboration among cross-functional teams. It focuses on delivering small, incremental releases, adapting to changes throughout the development process
+Example: Building a new mobile app. Since user preferences can change, developers can adjust features based on feedback instead of following a fixed plan.
+
+Waterfall methodology follows a linear and sequential approach to software development, with distinct phases such as requirements gathering, design, implementation, testing, and maintenance.
+Example: Developing a medical records system for hospitals. Since healthcare software must follow strict regulations, detailed planning and thorough testing are essential before release.
 
 **Describe the roles and responsibilities of a Software Developer, a Quality Assurance Engineer, and a Project Manager in a software engineering team.**
 
@@ -33,6 +45,22 @@
 **What are some common challenges faced by software engineers? Provide strategies to overcome these challenges.**
 
 **Explain the different types of testing (unit, integration, system, and acceptance) and their importance in software quality assurance.**
+1. Unit Testing
+Unit testing involves testing individual components or functions of a program in isolation to ensure they work correctly. Developers typically write these tests while coding.
+It Catches bugs early in development, helps developers ensure each part of the code works as expected and makes debugging easier by isolating faulty components.
+
+2. Integration Testing
+Integration testing checks whether different modules or components of a system work together properly. It ensures that data flows correctly between different parts of the software.
+It ensures seamless communication between different software components, helps detect issues in data exchange or API interactions and prevents integration failures that could break the system.
+
+3. System Testing
+System testing evaluates the complete software system as a whole to check if it meets the specified requirements. It tests the entire application in an environment that simulates real-world conditions.
+It verifies that the entire system functions as expected, identifies performance, security, and usability issues, and ensures compliance with business requirements.
+
+4. Acceptance Testing
+Acceptance testing determines whether the software is ready for release by validating it against business and user requirements. It is usually performed by the end user or client.
+It confirms that the software meets user expectations, reduces the risk of failure after deployment and ensures that the final product is user-friendly and reliable
+
 **#Part 2: Introduction to AI and Prompt Engineering**
 
 **Define prompt engineering and discuss its importance in interacting with AI models.**
